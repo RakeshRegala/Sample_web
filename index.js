@@ -72,7 +72,7 @@ app.get('/signupsubmit', (req, res) => {
       email:email,
       password:password
   }).then(()=>{
-    res.send("Signup successful");
+    res.send("Signup successful!");
   })
 })
 
